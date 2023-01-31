@@ -35,6 +35,12 @@ inquirer.prompt([
     manager.setOfficeNumber(response.managerOfficeNumber);
 
     console.log(manager);
+    // Render the page
+    const pageRender = render([manager, manager, manager]);
 
-    render([manager]);
+    // Write page on file
+    fs.writeFile(outputPath, pageRender, (err) =>
+    err ? console.error(err) : console.log('Success!')
+    );
+
 });
