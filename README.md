@@ -15,3 +15,4 @@ Once you open the terminal on the appropriate application folder, access functio
 ## Credits
 * Trilogy Education Services
 * [W3Schools](https://www.w3schools.com/)
+* [Stack Overflow](https://stackoverflow.com/questions/61417816/how-do-i-invoke-inquirer-js-menu-in-a-loop-using-promises)
